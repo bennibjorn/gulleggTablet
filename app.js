@@ -3,7 +3,7 @@ angular.module('gullegg', ['ngRoute', 'ngMaterial']);
 
 angular.module('gullegg').config(
     function ($locationProvider, $routeProvider) {
-        $locationProvider.html5Mode(true);
+        //$locationProvider.html5Mode(true);
         $routeProvider
             .when('/', {
                 templateUrl: 'views/front.html',
