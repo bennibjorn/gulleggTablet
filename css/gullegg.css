@@ -1,8 +1,16 @@
 .container {
     display: flex;
     justify-content: center;
-
+    padding-top: 25%;
 }
 .bigRedBtn {
     margin: auto;
+}
+.randPromoText {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.backBtn {
+
 }
